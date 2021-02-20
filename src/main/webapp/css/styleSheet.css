@@ -1,0 +1,46 @@
+nav {
+    background: #0D5E78;
+    margin-top: -1rem;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: large;
+}
+h1{
+    color: #0D5E78;
+}
+footer{
+    background: #0D5E78;
+    text-align: center;
+}
+footer h2{
+    color: #ffffff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50%;
+}
+form input{
+    margin: 1rem;
+}
+form label{
+    margin-left: 1rem;
+}
+.overzicht{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+
+}
+.overzicht li{
+    list-style: none;
+    padding-top: 1rem;
+}
